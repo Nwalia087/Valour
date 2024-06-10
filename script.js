@@ -1,10 +1,10 @@
 const loader = document.querySelector("#loader");
 setTimeout(() => {
   loader.style.opacity = "0";
-}, 1000);
+}, 10000);
 setTimeout(() => {
   loader.style.display = "none";
-}, 1500);
+}, 10500);
 
 const OnDisplay = document.querySelectorAll(".OnDisplay");
 function pageOnDisplay(num) {
